@@ -1,0 +1,19 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Open VNC in Simple Browser",
+            "type": "shell",
+            "command": "${input:openVNC}",
+            "problemMatcher": []
+        }
+    ],
+    "inputs": [
+        {
+            "id": "openVNC",
+            "type": "command",
+            "command": "simpleBrowser.show",
+            "args": "https://-6080.app.github.dev"
+        }
+    ]
+}
